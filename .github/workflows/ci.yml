@@ -20,7 +20,7 @@ jobs:
     
     - name: Run tests
       run:
-        python -m unittest test_sum.py
-        python -m unittest test_substract.py
-        python -m unittest test_plus.py
+        python -m unittest test_sum.py,
+        python -m unittest test_substract.py,
+        python -m unittest test_plus.py,
         python -m unittest test_div.py
